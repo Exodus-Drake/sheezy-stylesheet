@@ -1,10 +1,32 @@
+/*? Custom element classes */
+.info-box{
+  padding: 16px;
+  margin: 12px 0 16px 0;
+  background-color: #DAE8F0;
+  border-radius: 5px 20px;
+  box-shadow:
+    rgba(0, 0, 0, 0.5) 0px 1px 4px,
+    rgb(255, 255, 255) 0px 1px 1px inset;
+  line-height: initial;"
+}
+.block-divider{
+  height: 3px;
+  background-image:
+    linear-gradient(to right, #DAE8F0, #556E87, #DAE8F0);
+  margin: 4px 0;
+}
+
+/* Custom block classes */
 .block-wrapper{
   padding: 10px 0 0 0;
 }
 .block-titlebar{
   border-radius: 5px 20px;
   background-color: #58728C;
-  box-shadow: -3px -8px #394f65 inset, 2px 2px white inset;
+  box-shadow:
+    -3px -8px #394f65 inset,
+    2px 2px white inset,
+    -5px -10px 4px #ffffff40 inset;
   padding: 6px 12px 14px 12px;
   min-height: 30px;
   font-size: 16px;
@@ -22,7 +44,7 @@
   background-color: #C9D8E1;
   border: 2px outset;
   border-radius: 5px 20px;
-  margin: -24px 6px 0 6px;
+  margin: -24px 6px 10px 6px;
   box-shadow:
     -3px -8px #90a9b9 inset,
     0px 28px #90a9b9 inset,
